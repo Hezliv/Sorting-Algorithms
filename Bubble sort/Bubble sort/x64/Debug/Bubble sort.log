@@ -1,0 +1,4 @@
+﻿  Bubble sort.cpp
+D:\Visual Studio\Visual Studio Community 2022\VC\Tools\MSVC\14.44.35207\include\span(12): warning STL4038: The contents of <span> are available only with C++20 or later.
+D:\Projects\Bubble sort\Bubble sort.cpp(69,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Bubble sort.vcxproj -> D:\Projects\Bubble sort\x64\Debug\Bubble sort.exe
