@@ -29,17 +29,13 @@ void BubbleSort(vector<int>& v)
         {
             if (v[j] > v[j + 1])
             {
-                int temp = v[j];
-                v[j] = v[j + 1];
-                v[j + 1] = temp;
-
-                //std::swap(v[j], v[j + 1]);
+                std::swap(v[j], v[j + 1]);
             }
         }
     }
 }
 
-int* BubbleSort(int mass[], int n)
+void BubbleSort(int* mass, int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
@@ -53,7 +49,6 @@ int* BubbleSort(int mass[], int n)
             }
         }
     }
-    return mass;
 }
 
 void GenerateMass(vector<int>& arr, int n)
@@ -64,6 +59,7 @@ void GenerateMass(vector<int>& arr, int n)
         arr[i] = 1 + rand() % (n - 1);
     }
 }
+
 int main()
 {   
     srand(time(0));
@@ -86,4 +82,5 @@ int main()
     for (int i : arr)
         cout << i << " ";
 }
+
 
