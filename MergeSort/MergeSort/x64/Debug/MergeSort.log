@@ -1,0 +1,17 @@
+﻿  MergeSort.cpp
+D:\Projects\MergeSort\MergeSort.cpp(35,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+      D:\Projects\MergeSort\MergeSort.cpp(35,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Projects\MergeSort\MergeSort.cpp(62,5):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void MergeSort<int>(std::vector<int,std::allocator<int>> &)"
+  
+D:\Projects\MergeSort\MergeSort.cpp(8,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+      D:\Projects\MergeSort\MergeSort.cpp(8,21):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Projects\MergeSort\MergeSort.cpp(62,5):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void MergeSort<int>(std::vector<int,std::allocator<int>> &)"
+          D:\Projects\MergeSort\MergeSort.cpp(56,5):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void Merge<int>(std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &)"
+  
+D:\Projects\MergeSort\MergeSort.cpp(9,22): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  MergeSort.vcxproj -> D:\Projects\MergeSort\x64\Debug\MergeSort.exe
